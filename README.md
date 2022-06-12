@@ -1,6 +1,6 @@
 We have build on the work of Katrin Honauer & Ole Johannsen who have developed the multi-camera based light field rendering blender model.
 We add an focal stack rendering model to their existing Light field blender model to allow researcher generate the focal stack for the same light field scene. 
-since we have build on the work of Katrin Honauer & Ole Johannse, we have kept the description of their work as it is in the readme file.(this file)
+Since we have build on the work of Katrin Honauer & Ole Johannse, we have kept the description of their work as it is in the readme file.(this file)
 
 # Installation of light field and focal stack model (installation remains the same as we have added the focal stack as an addon to the light field model)
 
