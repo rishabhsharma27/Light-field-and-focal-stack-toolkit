@@ -66,6 +66,11 @@ class VIEW3D_OT_lightfield_setup(bpy.types.Panel):
         col.prop(LF, "fstop")
 
         col = layout.column(align=True)
+        col.label("Meta information: Focal Stack")
+        col.prop(LF, "authors_FS")
+        col.prop(LF, "contact_FS")
+
+        col = layout.column(align=True)
         col.label(text="Light field parameters:")
         col.prop(LF, "num_cams_x")
         col.prop(LF, "num_cams_y")

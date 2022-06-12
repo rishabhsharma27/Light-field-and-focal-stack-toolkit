@@ -31,6 +31,8 @@
 
 bl_info = {
     'name': 'Light Field Renderer',
+    'name_FS': 'Focal Stack Renderer',  
+    'author_FS': 'Rishabh Sharma, Eva Cheng, Stuart Perry',
     'author': 'Ole Johannsen, Katrin Honauer',
     'description': 'Scripts to create a static light field setup',
     'version': (1, 0, 0),
@@ -276,7 +278,17 @@ class LFPropertyGroup(bpy.types.PropertyGroup):
         max=20.0,
         description='Max disparity of frustum in [px]',
         update=updates.update_lightfield
-    )    
+    ) 
+    authors_FS = StringProperty(
+        name='',
+        default='Rishabh Sharma, Eva Cheng, Stuart Perry',
+        description='Author(s) of the scene'
+    )   
+    contact_FS = StringProperty(
+        name='',
+        default='Rishabh.Sharma-1@student.uts.edu.au',
+        description='Contact information'
+    )
     authors = StringProperty(
         name='',
         default='Katrin Honauer, Ole Johannsen, Daniel Kondermann, Bastian Goldluecke',
