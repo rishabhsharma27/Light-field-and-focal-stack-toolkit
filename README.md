@@ -5,6 +5,8 @@ Since we have build on the work of Katrin Honauer & Ole Johannse, we have kept t
 # Files
 Contains a .blender file which is a sample blender setup file. 
 
+# Folder
+"Light field ad focal stack example scene" contains the LF and focal stack of the scene from 
 
 # Installation of light field and focal stack model (installation remains the same as we have added the focal stack as an addon to the light field model)
 
